@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/dist/output.css" rel="stylesheet">
+
+
+
+    <style>
+        body {
+            /* position: relative; */
+            /* width: 1512px; */
+            /* height: 5881px; */
+            background: #0E0E0E;
+        }
+
+        .nav {
+            height: 103px;
+            width: 1512px;
+            left: 0px;
+            top: 0px;
+            background: #070707;
+        }
+
+        .nav a {
+            width: 150px;
+            height: 23px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        .hero {
+            width: 400px;
+            height: 160px;
+            left: 103px;
+            top: 271px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 90px;
+            line-height: 88.4%;
+            color: #FFFFFF;
+        }
+
+        .hero-head2 {
+            color: #FFE200;
+        }
+
+        .hero-text {
+            width: 423px;
+            height: 135px;
+            left: 103px;
+            top: 460px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 27px;
+            color: #FFFFFF;
+        }
+
+        .hero-butt {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 13px 30px;
+            gap: 10px;
+            width: 209px;
+            height: 46px;
+            left: 103px;
+            top: 632px;
+            background: linear-gradient(90deg, #FF9700 4.44%, #FFE200 93.02%);
+            border-radius: 10px;
+        }
+
+        .hero-head {
+            width: 751px;
+            height: 67px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 55px;
+            line-height: 67px;
+            color: #ffffff;
+        }
+
+        .hero-head2 {
+            width: 751px;
+            height: 67px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 55px;
+            line-height: 67px;
+            color: #FFE200;
+        }
+
+        .hero-background {
+            position: absolute;
+            width: 934.59px;
+            height: 599px;
+            left: 481.41px;
+            top: 198px;
+            background: linear-gradient(138.16deg, rgba(255, 151, 0, 0.5) 23.62%, rgba(112, 0, 131, 0.5) 129.58%);
+            filter: blur(173px);
+            border-radius: 274.5px;
+        }
+
+        .hero-side {
+            position: absolute;
+            width: 138px;
+            height: 138px;
+            left: 420px;
+            top: 104px;
+            background: linear-gradient(180deg, rgba(190, 113, 0, 0.1) 0%, rgba(255, 226, 0, 0.1) 100%);
+            filter: blur(20px);
+
+        }
+
+
+        .shadow {
+            width: 934.59px;
+            height: 599px;
+            left: 863.83px;
+            top: 2459.26px;
+
+            background: linear-gradient(138.16deg, rgba(255, 151, 0, 0.2) 23.62%, rgba(112, 0, 131, 0.2) 129.58%);
+            filter: blur(173px);
+            border-radius: 274.5px;
+            transform: rotate(-170.9deg);
+        }
+
+        .shadow2 {
+
+            width: 934.59px;
+            height: 599px;
+            left: 537px;
+            top: 2135px;
+
+            background: linear-gradient(138.16deg, rgba(255, 151, 0, 0.2) 23.62%, rgba(112, 0, 131, 0.2) 129.58%);
+            filter: blur(173px);
+            border-radius: 274.5px;
+
+        }
+
+
+        .card {
+            box-sizing: border-box;
+            width: 373px;
+            height: 481px;
+            background: #0E0E0E;
+            border-radius: 30px;
+        }
+
+        .feature-head {
+            width: 226px;
+            height: 37px;
+            left: 1126px;
+            /* top: 1151px; */
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 37px;
+            /* identical to box height */
+
+            text-align: center;
+
+            color: #FF9700;
+        }
+
+        .feature-text {
+            width: 305px;
+            height: 242px;
+            /* left: 1074px; */
+            /* top: 1253px; */
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+        }
+
+        .feature-balls {
+            /* position: absolute; */
+            width: 423px;
+            height: 323px;
+            left: 1379px;
+            top: calc(50% - 123px/2 - 1683px);
+            background: linear-gradient(180deg, rgba(190, 113, 0, 0.17) 0%, rgba(255, 226, 0, 0.17) 100%);
+            filter: blur(13px);
+            /* border-radius: 1180px; */
+        }
+
+        .benefit {
+            height: 1092px;
+            left: 38px;
+            /* top: 2787px; */
+            background: rgba(255, 255, 255, 0.66);
+            border-radius: 38px;
+            padding-left: -15px;
+            padding-right: -15px;
+        }
+
+        .benefit-card {
+            box-sizing: border-box;
+            width: 398px;
+            height: 282px;
+            background: #070707;
+            border-radius: 24px;
+        }
+
+        .benefit-head {
+            width: 236px;
+            height: 37px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 37px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        .benefit-text {
+            width: 335px;
+            height: 160px;
+            left: 136px;
+            /* top: 3181px; */
+            /* font-family: 'Montserrat'; */
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+
+            color: #FFFFFF;
+
+        }
+
+        .feature-card {
+            /* width: 243px;
+height: 312px;
+left: 634px;
+top: 260px; */
+            /* base colour */
+            background: linear-gradient(90deg, #FF9700 4.44%, #FFE200 93.02%);
+            mix-blend-mode: screen;
+            filter: blur(100px);
+        }
+
+
+        .img-background {
+            position: absolute;
+            width: 422px;
+            height: 644px;
+            left: 992px;
+            top: 223px;
+            border-top-left-radius: 200px;
+            border-top-right-radius: 200px;
+            background: rgba(196, 196, 196, 0.1);
+        }
+
+
+        .token-icons{
+            /* position: absolute; */
+            left: 10%;
+            right: 10%;
+            top: 10%;
+            bottom: 10%;
+            /* background: #FFE200; */
+        }
+
+
+
+
+        .e40_555 {
+            border-radius: 500px;
+            background-image: linear-gradient(0deg, rgba(190.1782751083374, 112.61537790298462, 0, 1) 0%, rgba(255, 226.0000017285347, 0, 1) 100%);
+            width: 22px;
+            height: 22px;
+            position: absolute;
+            left: 192px;
+            top: 147px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="e40_555"></div>
+    <nav class="nav flex flex-wrap items-center justify-between p-5 bg-blue-200">
+        <svg width="155px" height="43px" viewBox="0 0 155 43" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs></defs>
+            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="Desktop-HD" transform="translate(-793.000000, -178.000000)">
+                    <g id="acme-logo-1" transform="translate(793.000000, 178.000000)">
+                        <path
+                            d="M4.76073423,33.5416645 L2.96008108,33.5416645 C1.46803153,33.5416645 0.258054054,32.3397452 0.258054054,30.8576323 L0.258054054,12.0166968 C0.258054054,10.5345839 1.46803153,9.33266452 2.96008108,9.33266452 L4.4646982,9.33266452 C5.95674775,9.33266452 7.16672523,10.5345839 7.16672523,12.0166968 L7.16672523,31.1516968 C7.16672523,32.4715194 6.08940541,33.5416645 4.76073423,33.5416645"
+                            id="Fill-80" fill="#221F20">
+                        </path>
+                    </g>
+                </g>
+            </g>
+        </svg>
+        <div class="flex md:hidden">
+            <button id="hamburger">
+                <img class="toggle block" src="https://img.icons8.com/fluent-systems-regular/2x/menu-squared-2.png"
+                    width="40" height="40" />
+                <img class="toggle hidden" src="https://img.icons8.com/fluent-systems-regular/2x/close-window.png"
+                    width="40" height="40" />
+            </button>
+        </div>
+        <div
+            class="toggle hidden w-full md:w-auto md:flex text-right text-bold mt-5 md:mt-0 border-t-2 border-blue-900 md:border-none">
+            <a href="#"
+                class="block md:inline-block text-blue-900 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">Home</a>
+            <a href="#"
+                class="block md:inline-block text-blue-900 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">About
+                Us</a>
+            <a href="#"
+                class="block md:inline-block text-blue-900 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">Token
+                Sale</a>
+            <a href="#"
+                class="block md:inline-block text-blue-900 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">Whitepaper</a>
+        </div>
+        <button href="#"
+            class="toggle hidden md:flex w-full md:w-auto px-4 py-2 text-right bg-blue-900 hover:bg-blue-500 text-white md:rounded">Buy
+            Token</button>
+    </nav>
+    <section class="flex justify-center w-full flex-wrap gap-8 px-8 sm:px-20 mt-28">
+        <div class="flex flex-wrap overflow-hidden md:-mx-10">
+            <div class="hero-side"></div>
+            <div class="w-full overflow-hidden md:my-10 md:px-10 lg:w-1/2">
+                <h2 class="hero hero-head">Classical <br>
+                    <p class="hero-head2">Finance</p>
+                </h2>
+                <br><br><br>
+                <h1 class="hero-text">
+                    Classical Finance is an auto-staking and auto-compounding protocol on BSC,
+                    focusing on the 2 key ethos of any serious and vision driven project, which are sustainability and
+                    credibility.
+                </h1>
+                <br><br><br><br>
+                <a href="#" class="hero-butt">Start Trading Now</a>
+            </div>
+            <div class="hero-background"></div>
+            <div class="image-back w-full overflow-hidden md:my-10 md:px-10 lg:w-1/2">
+
+                <img class="hero-img" src="/src/assets/img/_Downloader 3.svg" alt="">
+                <div class="img-background"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- <br><br><br>
+    <div class="flex justify-center w-full flex-wrap gap-8 px-8 sm:px-20 mt-28">
+        <div>
+            <h2 class="hero-head text-center">FEATURES<h2></h2>
+        </div>
+        <br><br><br><br><br>
+        <div class="container my-12 mx-auto px-4 md:px-12">
+            <div class="flex flex-wrap -mx-1 lg:-mx-4">
+                <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+                    <article class="card overflow-hidden rounded-lg shadow-lg">
+                        <br><br><br>
+                        <h1 class="feature-head text-9xl text-white text-center">Staking</h1>
+                        <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                            <h1 class="feature-text text-lg">
+                                <br><br><br>
+                                <a class="no-underline hover:underline text-white text-center" href="#">
+                                    Staking is Classical Finance principal appreciation mechanism for incentivizing
+                                    rebasing.
+                                    The protocol's transaction taxes (fees) and other yield-generating resources are
+                                    used to fund rebase incentives.
+                                    Staking is a passive, long-term approach. Your cost-entry basis will reduce as your
+                                    interest in $CLASSICALFINANCE grows, until it approaches zero. .
+                                </a>
+                            </h1>
+                        </header>
+                        <div class="feature-balls"></div>
+                    </article>
+                </div>
+          
+                <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+                    <article class="card overflow-hidden rounded-lg shadow-lg">
+                        <br><br><br>
+                        <h1 class="feature-head text-9xl text-white text-center">Dynamic Tax</h1>
+                        <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                            <h1 class="feature-text text-lg">
+                                <br><br><br>
+                                <a class="no-underline hover:underline text-white text-center" href="#">
+                                    What is Dynamic Tax? Dynamic tax minimizes or totally eliminates price
+                                    manipulation by taxing buy and sale actions based on
+                                    the current daily ROI (3.06%, 2.04%, 1.02% and 0.11%). .
+                                </a>
+                            </h1>
+                        </header>
+                        <div class="feature-balls"></div>
+                    </article>
+                </div>
+
+                <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+                    <article class="card overflow-hidden rounded-lg shadow-lg">
+                        <br><br><br>
+                        <h1 class="feature-head text-9xl text-white text-center">Dynamic APY</h1>
+                        <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                            <h1 class="feature-text text-lg">
+                                <br><br><br>
+                                <a class="no-underline hover:underline text-white text-center" href="#">
+                                    What is APY? APY stands for Annual Percentage Yield.
+                                    This measures the real rate of return on your principal tokens'
+                                    amount by taking into account the effect of compounding interest.
+                                    In the case of Classical Finance Protocol, your token represents your principal,
+                                    and the compounded interest is added periodically on every Rebase event..
+                                </a>
+                            </h1>
+                        </header>
+                        <div class="feature-balls"></div>
+                    </article>
+                </div>           
+            </div>
+        </div>
+    </div> -->
+
+    <br><br><br><br><br><br>
+    <section class="flex justify-center w-full flex-wrap">
+        <h1 class="hero-head2 text-center">Classical Finance Overview</h1>
+        <br><br><br><br><br><br><br><br><br><br>
+        <div class="flex flex-wrap overflow-hidden">
+
+            <div class="w-full overflow-hidden lg:w-1/2 overview">
+                <h1 class="text-white text-center">Buy at low apy-----------------------------10% </h1>
+                <p class="overview-text text-center">Automatic LP 2% The Vault 2% Classical Trust 1% Burn 5%</p>
+            </div>
+
+            <div class="w-full overflow-hidden lg:w-1/2">
+            </div>
+
+            <div class="w-full overflow-hidden lg:w-1/2" style="    
+          background: linear-gradient(138.16deg, rgba(255, 151, 0, 0.2) 23.62%, rgba(112, 0, 131, 0.2) 129.58%);
+          filter: blur(173px);
+          border-radius: 274.5px;
+          transform: rotate(-170.9deg);
+          ">
+                >
+            </div>
+
+            <div class="w-full overflow-hidden lg:w-1/2 overview">
+                <h1 class="text-white text-center">Buy at low apy------------------------------10% </h1>
+                <p class="overview-text text-center">Automatic LP 2% The Vault 2% Classical Trust 1% Burn 5%</p>
+            </div>
+            <div class="w-full overflow-hidden lg:w-1/2 overview">
+                <h1 class="text-white text-center">Buy at low apy------------------------------10% </h1>
+                <p class="overview-text text-center">Automatic LP 2% The Vault 2% Classical Trust 1% Burn 5%</p>
+            </div>
+
+            <div class="w-full overflow-hidden lg:w-1/2" style="    
+          background: linear-gradient(138.16deg, rgba(255, 151, 0, 0.2) 23.62%, rgba(112, 0, 131, 0.2) 129.58%);
+          filter: blur(173px);
+          border-radius: 274.5px;
+          transform: rotate(-170.9deg);
+          ">
+            </div>
+
+            <div class="w-full overflow-hidden lg:w-1/2">
+            </div>
+
+            <div class="w-full overflow-hidden lg:w-1/2 overview">
+                <h1 class="text-white text-center">Buy at low apy-------------------------------10% </h1>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <br><br><br><br>
+
+    <!-- <div class="benefit justify-center w-full flex-wrap gap-8 px-8 sm:px-20 mt-28 hidden md:flex dis"> -->
+
+    <div class="justify-center w-full flex-wrap gap-8 px-8 sm:px-20 mt-28">
+        <br>
+        <div class="flex flex-wrap overflow-hidden md:-mx-1">
+            <div class="w-full overflow-hidden md:my-1 md:px-1 lg:w-1/3 xl:w-1/3">
+                <div class="benefit-card visible">
+                    <img class="content-between" src="/src/assets/img/icons/simple.png" alt="" srcset="">
+                    <br>
+                    <h1 class="benefit-head">Content</h1>
+                    <p class="benefit-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nesciunt,
+                        natus magnam doloremque dolore praesentium facere accusantium consequatur facilis
+                        laboriosam ducimus necessitatibus exercitationem recusandae, cumque optio at vero nisi a.</p>
+                </div>
+            </div>
+
+            <div class="w-full overflow-hidden md:my-1 md:px-1 lg:w-1/3 xl:w-1/3">
+                <div class="benefit-card">
+                    <img class="content-between" src="/src/assets/img/icons/simple.png" alt="" srcset="">
+                    <h1 class="benefit-head">Content</h1>
+                    <p class="benefit-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nesciunt,
+                        natus magnam doloremque dolore praesentium facere accusantium consequatur facilis
+                        laboriosam ducimus necessitatibus exercitationem recusandae, cumque optio at vero nisi a.</p>
+                </div>
+
+            </div>
+
+            <div class="w-full overflow-hidden md:my-1 md:px-1 lg:w-1/3 xl:w-1/3">
+                <div class="token-icon-verities"></div>
+                <div class="benefit-card">
+                    <img class="content-between" src="/src/assets/img/icons/simple.png" alt="" srcset="">
+                    <h1 class="benefit-head">Content</h1>
+                    <p class="benefit-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nesciunt,
+                        natus magnam doloremque dolore praesentium facere accusantium consequatur facilis
+                        laboriosam ducimus necessitatibus exercitationem recusandae, cumque optio at vero nisi a.</p>
+                </div>
+
+            </div>
+
+            <div class="w-full overflow-hidden md:my-1 md:px-1 lg:w-1/3 xl:w-1/3">
+                <div class="benefit-card">
+                    <img class="content-between" src="/src/assets/img/icons/simple.png" alt="" srcset="">
+                    <h1 class="benefit-head">Content</h1>
+                    <p class="benefit-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nesciunt,
+                        natus magnam doloremque dolore praesentium facere accusantium consequatur facilis
+                        laboriosam ducimus necessitatibus exercitationem recusandae, cumque optio at vero nisi a.</p>
+                </div>
+
+            </div>
+
+            <div class="w-full overflow-hidden md:my-1 md:px-1 lg:w-1/3 xl:w-1/3">
+                <div class="benefit-card">
+                    <img class="content-between" src="/src/assets/img/icons/simple.png" alt="" srcset="">
+                    <h1 class="benefit-head">Content</h1>
+                    <p class="benefit-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nesciunt,
+                        natus magnam doloremque dolore praesentium facere accusantium consequatur facilis
+                        laboriosam ducimus necessitatibus exercitationem recusandae, cumque optio at vero nisi a.</p>
+                </div>
+            </div>
+
+            <div class="w-full overflow-hidden md:my-1 md:px-1 lg:w-1/3 xl:w-1/3">
+                <div class="benefit-card">
+                    <h1 class="benefit-head">Content</h1>
+                    <p class="benefit-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nesciunt,
+                        natus magnam doloremque dolore praesentium facere accusantium consequatur facilis
+                        laboriosam ducimus necessitatibus exercitationem recusandae, cumque optio at vero nisi a.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <section class="flex justify-center w-full flex-wrap gap-8 px-8 sm:px-20 mt-28">
+        <div class="flex flex-wrap -mx-5 overflow-hidden sm:-mx-5 md:-mx-6 xl:-mx-24">
+            <div class="my-5 px-5 w-full overflow-hidden sm:my-5 sm:px-5 md:my-6 md:px-6 lg:w-1/3 xl:my-24 xl:px-24">
+                <!-- Column Content -->
+                <br><br>
+                <h1 class="text-white">Phase1</h1>
+                <br><br>
+                <h1 class="text-white">
+                    <p class="text-yellow-800">2023 Q1:</p><br>
+
+                    -Creation of Classical Finance <br>
+                    Smart Contract <br>
+                    -Private Sale (OG) <br>
+                    -Application for KYC <br>
+                    -Application for Contract Audit <br>
+                    -Presale (WL) <br>
+                    -Strategic Partnerships <br>
+                    -Marketing <br>
+                    -Stealth Launch on Titano <br>
+                    -AMA <br>
+                </h1>
+            </div>
+
+            <div class="my-5 px-5 w-full overflow-hidden sm:my-5 sm:px-5 md:my-6 md:px-6 lg:w-1/3 xl:my-24 xl:px-24">
+                <!-- Column Content -->
+                <br><br>
+                <h1 class="text-white">Phase2</h1>
+                <br><br>
+                <h1 class="text-white">
+                    <p class="text-yellow-800">2023 Q2:</p><br>
+                    
+
+                    -NFT release <br>
+                    -CoinMarketCap Listing <br>
+                    -CoinGecko Listing <br>
+                    -Twitter/Discord Marketing <br>
+                </h1>
+            </div>
+
+            <div class="my-5 px-5 w-full overflow-hidden sm:my-5 sm:px-5 md:my-6 md:px-6 lg:w-1/3 xl:my-24 xl:px-24">
+                <!-- Column Content -->
+                <br><br>
+                <h1 class="text-white">Phase3</h1>
+                <br><br>
+                <h1 class="text-white">
+                    <p class="text-yellow-800">2023 Q3:</p><br>
+
+                    Bridging <br>
+                    -Development of Smart exchange <br>
+
+                </h1>
+            </div>
+            <br><br><br><br>
+            <div class="my-5 px-5 w-full overflow-hidden sm:my-5 sm:px-5 md:my-6 md:px-6 lg:w-1/3 xl:my-24 xl:px-24">
+                <!-- Column Content -->
+                <br><br>
+                <h1 class="text-white">Phase1</h1>
+                <br><br>
+                <h1 class="text-white">
+                    <p class="text-yellow-800">2023 Q1:</p><br>
+
+                    -Eliminating Rug pulls in Bsc <br>
+                    -Listing Bsc Projects <br>
+
+                </h1>
+            </div>
+
+            <div class="my-5 px-5 w-full overflow-hidden sm:my-5 sm:px-5 md:my-6 md:px-6 lg:w-1/3 xl:my-24 xl:px-24">
+                <!-- Column Content -->
+                <br><br>
+                <h1 class="text-white">Phase1</h1>
+                <br><br>
+                <h1 class="text-white">
+                    <p class="text-yellow-800">2023 Q2:</p><br>
+                    -Listing other blockchains <br>
+
+                </h1>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- <div>
+
+
+        <img src="/src/assets/img/bg-img/01.09.2022_16.31.24_REC.png" alt="" srcset="" style="border-top-left-radius: 10px;">
+        <img src="/src/assets/img/bg-img/01.09.2022_16.32.09_REC.png" alt="" srcset="">
+        <div class="shadow"></div>
+        <div class="shadow2"></div>
+    </div> -->
+
+</body>
+
+</html>

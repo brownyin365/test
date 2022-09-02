@@ -1,0 +1,67 @@
+
+
+.hidden,
+.hidden * {
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.homepage-1 {
+    align-items: flex-start;
+    background-color: var(--woodsmoke);
+    display: flex;
+    flex-direction: column;
+    height: 5881px;
+    width: 1512px;
+}
+
+.navbar{
+    align-items: center;
+    display: flex;
+    gap: 7px;
+    left: 543px;
+    position: absolute;
+    top: 44px;
+}
+
+.rectangle-65{
+    background-color: var(--cod-gray);
+    height: 103px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1512px;
+}
+
+/* body{
+    background-color: black;
+} */
+
+
+.classical-finance{
+    color: transparent;
+    font-family: var(--font-family-montserrat);
+    font-size: 90px;
+    left: 103px;
+    letter-spacing: 0;
+    line-height: 70.6px;
+    position: absolute;
+    top: 271px;
+
+}
+
+.span0{
+    color: white;
+    font-weight: 700;
+}
+
+.span1 {
+    color: var(--sizzling-sunrise);
+    font-weight: 700;
+
+}
+
+.span2{
+    color: var(--sizzling-sunrise);
+    font-weight: 600;
+}

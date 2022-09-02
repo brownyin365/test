@@ -1,0 +1,723 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+
+  <style>
+    .container {
+      position: relative;
+      height: 5881px;
+      background: #0E0E0E;
+      /* width: 1512px; */
+      padding-left: -15px;
+      padding-left: -15px;
+    }
+
+    .second {
+      height: 854px;
+      left: 0px;
+      background: #070707;
+    }
+
+    .third {
+      /* width: 1436px;
+      height: 1092px;
+      left: 38px; */
+      background: rgba(255, 255, 255, 0.66);
+      border-radius: 38px;
+    }
+
+    .card {
+      background: #0E0E0E;
+      border-radius: 30px;
+      /* height: 481px;
+width: 373px; */
+
+    }
+
+    .h3 {
+      width: 239px;
+      height: 37px;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 37px;
+      /* identical to box height */
+      color: #FF9700;
+
+    }
+
+    .p {
+      position: absolute;
+      width: 312px;
+      height: 264px;
+      left: 125px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+
+    .card1 {
+      box-sizing: border-box;
+      width: 398px;
+      height: 382px;
+      background: #070707;
+      border-radius: 24px;
+      color: #ffffff;
+
+    }
+
+    .card {
+      box-shadow: 0 4px 8px 0 #e8fd00;
+      transition: 0.3s;
+
+    }
+
+    .page-head {
+      /* position: absolute; */
+      width: 751px;
+      height: 67px;
+      /* font-family: 'Montserrat'; */
+      font-style: normal;
+      font-weight: 700;
+      font-size: 55px;
+      line-height: 67px;
+      /* identical to box height */
+      color: #000000;
+
+    }
+
+    .hero-head {
+      width: 751px;
+      height: 67px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 55px;
+      line-height: 67px;
+      color: #ffffff;
+    }
+
+    .hero-head2 {
+      width: 751px;
+      height: 67px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 55px;
+      line-height: 67px;
+      color: #FFE200;
+    }
+
+    .hero-text {
+      /* position: absolute; */
+      width: 423px;
+      height: 135px;
+      left: 103px;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 27px;
+      color: #FFFFFF;
+    }
+
+    /* .hero-img{
+        width: 821px;
+        height: 645px;
+        left: 634px;
+      } */
+    .hero-butt {
+      /* Auto layout */
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 13px 30px;
+      gap: 10px;
+      position: relative;
+      width: 209px;
+      height: 46px;
+      /* base colour */
+      background: linear-gradient(90deg, #FF9700 4.44%, #FFE200 93.02%);
+      border-radius: 10px;
+    }
+
+    .nav {
+      height: 103px;
+      left: 0px;
+      top: 0px;
+
+      background: #070707;
+    }
+
+    .nav a {
+      width: 150px;
+      height: 23px;
+      /* font-family: 'Montserrat'; */
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+
+    .overview {
+      /* position: absolute; */
+      width: 670px;
+      height: 136px;
+      left: 281px;
+      background: linear-gradient(180deg, #070707 0%, rgba(7, 7, 7, 0) 100%);
+      border-radius: 35px;
+    }
+
+    .overview-text {
+      /* position: absolute; */
+      width: 470px;
+      height: 20px;
+      left: 621px;
+      top: 2601px;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      /* identical to box height */
+
+
+      color: #FFFFFF;
+
+    }
+
+    .overview-main {
+      /* position: absolute; */
+      /* width: 934.59px;
+height: 599px;
+left: 863.83px;
+top: 2459.26px; */
+
+      background: linear-gradient(138.16deg, rgba(255, 151, 0, 0.2) 23.62%, rgba(112, 0, 131, 0.2) 129.58%);
+      /* filter: blur(173px);
+border-radius: 274.5px; */
+      /* transform: rotate(-170.9deg); */
+
+    }
+
+    .email {
+
+      /* position: absolute; */
+      height: 439px;
+      left: 0px;
+      /* top: 4986px; */
+      background: #070707;
+    }
+
+    .social {
+      /* position: absolute; */
+      height: 99px;
+      left: 0px;
+
+
+      background: #BE7100;
+    }
+
+    .footer {
+      /* position: absolute; */
+      height: 386px;
+      left: 0px;
+
+      background: #FF9700;
+    }
+    .e40_555 { 
+	border-radius:500px;
+	background-image:linear-gradient(0deg, rgba(190.1782751083374, 112.61537790298462, 0, 1) 0%,rgba(255, 226.0000017285347, 0, 1) 100%) ;
+	width:22px;
+	height:22px;
+	position:absolute;
+	left:192px;
+	top:147px;
+}
+/* .e40_557 { 
+	border-radius:500px;
+	background-image:linear-gradient(0deg, rgba(190.1782751083374, 112.61537790298462, 0, 1) 0%,rgba(255, 226.0000017285347, 0, 1) 100%) ;
+	width:138px;
+	height:138px;
+	position:absolute;
+	left:420px;
+	top:104px;
+}
+.e40_562 { 
+	box-shadow:4px 4px 40px rgba(255, 151.00000619888306, 0, 1);
+	background-color:rgba(196.00000351667404, 196.00000351667404, 196.00000351667404, 0);
+	width:1100px;
+	height:1128px;
+	position:absolute;
+	left:206px;
+	top:185px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+.e40_563 { 
+	background-color:rgba(14.000000115484, 14.000000115484, 14.000000115484, 1);
+	width:962px;
+	height:96px;
+	position:absolute;
+	left:275px;
+	top:311px;
+	border-top-left-radius:16px;
+	border-top-right-radius:16px;
+	border-bottom-left-radius:16px;
+	border-bottom-right-radius:16px;
+}
+.e40_564 { 
+	background-color:rgba(14.000000115484, 14.000000115484, 14.000000115484, 1);
+	width:962px;
+	height:92px;
+	position:absolute;
+	left:275px;
+	top:476px;
+	border-top-left-radius:16px;
+	border-top-right-radius:16px;
+	border-bottom-left-radius:16px;
+	border-bottom-right-radius:16px;
+}
+.e40_573 { 
+	background-image:linear-gradient(0deg, rgba(255, 151.00000619888306, 0, 1) 63.43490481376648%,rgba(255, 226.0000017285347, 0, 1) 100%) ;
+	width:636px;
+	height:92px;
+	position:absolute;
+	left:438px;
+	top:1193px;
+	border-top-left-radius:16px;
+	border-top-right-radius:16px;
+	border-bottom-left-radius:16px;
+	border-bottom-right-radius:16px;
+} */
+  </style>
+</head>
+
+<body class="container">
+  <div class="e40_555"></div>
+  <!-- <div class="e40_557"></div>
+  <div class="e40_561"></div>
+  <div class="e40_562"></div>
+  <div class="e40_563"></div>
+  <div class="e40_564"></div>
+  <div class="e40_573"></div> -->
+  <nav class="nav flex flex-wrap items-center justify-between p-5 bg-blue-200">
+    <svg width="155px" height="43px" viewBox="0 0 155 43" version="1.1" xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink">
+      <defs></defs>
+      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-793.000000, -178.000000)">
+          <g id="acme-logo-1" transform="translate(793.000000, 178.000000)">
+            <path
+              d="M4.76073423,33.5416645 L2.96008108,33.5416645 C1.46803153,33.5416645 0.258054054,32.3397452 0.258054054,30.8576323 L0.258054054,12.0166968 C0.258054054,10.5345839 1.46803153,9.33266452 2.96008108,9.33266452 L4.4646982,9.33266452 C5.95674775,9.33266452 7.16672523,10.5345839 7.16672523,12.0166968 L7.16672523,31.1516968 C7.16672523,32.4715194 6.08940541,33.5416645 4.76073423,33.5416645"
+              id="Fill-80" fill="#221F20">
+            </path>
+          </g>
+        </g>
+      </g>
+    </svg>
+    <div class="flex md:hidden">
+      <button id="hamburger">
+        <img class="toggle block" src="https://img.icons8.com/fluent-systems-regular/2x/menu-squared-2.png" width="40"
+          height="40" />
+        <img class="toggle hidden" src="https://img.icons8.com/fluent-systems-regular/2x/close-window.png" width="40"
+          height="40" />
+      </button>
+    </div>
+    <div
+      class="toggle hidden w-full md:w-auto md:flex text-right text-bold mt-5 md:mt-0 border-t-2 border-blue-900 md:border-none">
+      <a href="#"
+        class="block md:inline-block text-blue-900 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">Home</a>
+      <a href="#"
+        class="block md:inline-block text-blue-900 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">About
+        Us</a>
+      <a href="#"
+        class="block md:inline-block text-blue-900 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">Token
+        Sale</a>
+      <a href="#"
+        class="block md:inline-block text-blue-900 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">Whitepaper</a>
+    </div>
+    <button href="#"
+      class="toggle hidden md:flex w-full md:w-auto px-4 py-2 text-right bg-blue-900 hover:bg-blue-500 text-white md:rounded">Buy
+      Token</button>
+  </nav>
+
+
+  <section class="flex justify-center w-full flex-wrap gap-8 px-8 sm:px-20 mt-28">
+    <div class="flex flex-wrap overflow-hidden md:-mx-10">
+      <div class="w-full overflow-hidden md:my-10 md:px-10 lg:w-1/2">
+        <h2 class="hero-head">Classical <br>
+          <p class="hero-head2">Finance</p>
+        </h2>
+        <br><br><br>
+        <h1 class="hero-text">
+          Classical Finance is an auto-staking and auto-compounding protocol on BSC,
+          focusing on the 2 key ethos of any serious and vision driven project, which are sustainability and
+          credibility.
+        </h1>
+        <br><br><br><br>
+        <a href="#" class="hero-butt">Start Trading Now</a>
+      </div>
+
+      <div class="image-back w-full overflow-hidden md:my-10 md:px-10 lg:w-1/2">
+
+        <img class="hero-img" src="/src/assets/img/_Downloader 3.svg" alt="">
+
+      </div>
+    </div>
+  </section>
+
+<section class="flex justify-center w-full flex-wrap">   
+<div>
+<br><br><br>
+<h2 class="hero-head text-center">FEATURES<h2>
+    <br>
+    <div class="md:flex md:-mx-4 mt-12 md:pt-4">
+      <div class="px-4 md:w-1/3 mt-6 md:mt-0">
+        <div
+          class="card feature-box text-center p-4 md:p-6 max-w-sm mx-auto border-2 border-solid border-gray-300 rounded md:h-full">
+          <br><br><br><br>
+          <h5 class="h3">Staking</h5>
+          <br><br><br><br>
+          <p class="text-white mb-3">Staking is Classical Finance
+            principal appreciation mechanism
+            for incentivizing rebasing. The
+            protocol's transaction taxes (fees)
+            and other yield-generating
+            resources are used to fund rebase
+            incentives. Staking is a passive,
+            long-term approach. Your
+            cost-entry basis will reduce as
+            your interest in
+            $CLASSICALFINANCE grows,
+            until it approaches zero. .</p>
+          <br><br><br><br>
+        </div>
+      </div>
+      <div class="px-4 md:w-1/3 mt-6 md:mt-0">
+        <div
+          class="card feature-box text-center p-4 md:p-6 max-w-sm mx-auto border-2 border-solid border-gray-300 rounded md:h-full">
+          <br><br><br><br>
+          <h5 class="h3">Dynamic Tax</h5>
+          <br><br><br><br>
+          <p class="text-white mb-3">What is Dynamic Tax?
+            Dynamic tax minimizes or totally
+            eliminates price manipulation by
+            taxing buy and sale actions based
+            on the current daily ROI
+            (3.06%, 2.04%, 1.02% and 0.11%). .</p>
+          <br><br><br><br><br><br><br>
+        </div>
+      </div>
+      <div class="px-4 md:w-1/3 mt-6 md:mt-0">
+        <div
+          class="card feature-box text-center p-4 md:p-6 max-w-sm mx-auto border-2 border-solid border-gray-300 rounded md:h-full">
+          <br><br><br><br>
+          <h5 class="h3">Dynamic APY</h5>
+          <br><br><br><br>
+          <p class="text-white mb-3">What is APY? APY stands for
+            Annual Percentage Yield. This
+            measures the real rate of return
+            on your principal tokens' amount
+            by taking into account the effect
+            of compounding interest. In the
+            case of Classical Finance Protocol,
+            your token represents your
+            principal, and the compounded
+            interest is added periodically on
+            every Rebase event..</p>
+          <br><br><br><br>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+
+  <section class="flex justify-center w-full flex-wrap">
+    <h1 class="hero-head2 text-center">Classical Finance Overview</h1>
+    <br><br><br><br><br><br><br><br><br><br>
+    <div class="flex flex-wrap overflow-hidden" 
+    >
+
+      <div class="w-full overflow-hidden lg:w-1/2 overview">
+        <!-- Column Content -->
+        <h1 class="text-white text-center">Buy at low apy-----------------------------10% </h1>
+        <p class="overview-text text-center">Automatic LP 2% The Vault 2% Classical Trust 1% Burn 5%</p>
+      </div>
+
+      <div class="w-full overflow-hidden lg:w-1/2" >
+        <!-- Column Content -->
+      </div>
+
+      <div class="w-full overflow-hidden lg:w-1/2"
+      style="    
+      background: linear-gradient(138.16deg, rgba(255, 151, 0, 0.2) 23.62%, rgba(112, 0, 131, 0.2) 129.58%);
+      filter: blur(173px);
+      border-radius: 274.5px;
+      transform: rotate(-170.9deg);
+      "
+      >
+      >
+        <!-- Column Content -->
+      </div>
+
+      <div class="w-full overflow-hidden lg:w-1/2 overview">
+        <!-- Column Content -->
+        <h1 class="text-white text-center">Buy at low apy------------------------------10% </h1>
+        <p class="overview-text text-center">Automatic LP 2% The Vault 2% Classical Trust 1% Burn 5%</p>
+      </div>
+
+      <div class="w-full overflow-hidden lg:w-1/2 overview">
+        <!-- Column Content -->
+        <h1 class="text-white text-center">Buy at low apy------------------------------10% </h1>
+        <p class="overview-text text-center">Automatic LP 2% The Vault 2% Classical Trust 1% Burn 5%</p>
+      </div>
+
+      <div class="w-full overflow-hidden lg:w-1/2"
+      style="    
+      background: linear-gradient(138.16deg, rgba(255, 151, 0, 0.2) 23.62%, rgba(112, 0, 131, 0.2) 129.58%);
+      filter: blur(173px);
+      border-radius: 274.5px;
+      transform: rotate(-170.9deg);
+      "
+      >
+        <!-- Column Content -->
+      </div>
+
+      <div class="w-full overflow-hidden lg:w-1/2">
+        <!-- Column Content -->
+      </div>
+
+      <div class="w-full overflow-hidden lg:w-1/2 overview">
+        <!-- Column Content -->
+        <h1 class="text-white text-center">Buy at low apy-------------------------------10% </h1>
+        <p class="overview-text">Automatic LP 2% The Vault 2% Classical Trust 1% Burn 5%</p>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+
+  <section class="m-2 font-sans leading-normal flex">
+    <!-- card container -->
+    <div class="max-w-lg shadow-lg rounded overflow-hidden m-4 sm:flex">
+      <div class="h-48 sm:h-auto sm:w-48 md:w-64 flex-none bg-cover bg-center rounded rounded-t sm:rounded sm:rounded-l text-center overflow-hidden" style="background-image: url('https://unsplash.it/804/800')">
+      </div>
+      <!-- card-content -->
+       <div class="">
+        <h2 class="mb-2 font-black">Hello Tailwind!</h2>
+        <p class="mb-4 text-grey-dark text-sm">
+          Learning Tailwind is incredibly easy. The team has done a wonderful job with the documentation. This is pretty amazing, I must say.
+         </p>
+        
+         <!-- button -->
+        <button class="py-3 px-6 bg-purple hover:bg-purple-light text-white font-bold rounded-full mt-1 mb-2">
+          Hey, click me.
+        </button> 
+      </div>
+    </div>
+  </section>
+
+
+ 
+
+
+  <section class="flex justify-center w-full flex-wrap gap-8 px-8 sm:px-20 mt-28">
+    <div class="flex flex-wrap -mx-5 overflow-hidden sm:-mx-5 md:-mx-6 xl:-mx-24">
+      <div class="my-5 px-5 w-full overflow-hidden sm:my-5 sm:px-5 md:my-6 md:px-6 lg:w-1/3 xl:my-24 xl:px-24">
+        <!-- Column Content -->
+        <br><br>
+        <h1 class="text-white">Phase1</h1>
+        <br><br>
+        <h1 class="text-white">
+          <p class="text-yellow-800">2023 Q1:</p>
+
+          -Creation of Classical Finance <br>
+          Smart Contract <br>
+          -Private Sale (OG) <br>
+          -Application for KYC <br>
+          -Application for Contract Audit <br>
+          -Presale (WL) <br>
+          -Strategic Partnerships <br>
+          -Marketing <br>
+          -Stealth Launch on Titano <br>
+          -AMA <br>
+        </h1>
+      </div>
+
+      <div class="my-5 px-5 w-full overflow-hidden sm:my-5 sm:px-5 md:my-6 md:px-6 lg:w-1/3 xl:my-24 xl:px-24">
+        <!-- Column Content -->
+        <br><br>
+        <h1 class="text-white">Phase2</h1>
+        <br><br>
+        <h1 class="text-white">
+          2023 Q2:
+
+          -NFT release <br>
+          -CoinMarketCap Listing <br>
+          -CoinGecko Listing <br>
+          -Twitter/Discord Marketing <br>
+        </h1>
+      </div>
+
+      <div class="my-5 px-5 w-full overflow-hidden sm:my-5 sm:px-5 md:my-6 md:px-6 lg:w-1/3 xl:my-24 xl:px-24">
+        <!-- Column Content -->
+        <br><br>
+        <h1 class="text-white">Phase3</h1>
+        <br><br>
+        <h1 class="text-white">
+          2023 Q2:
+
+          Bridging <br>
+          -Development of Smart exchange <br>
+
+        </h1>
+      </div>
+      <br><br><br><br>
+      <div class="my-5 px-5 w-full overflow-hidden sm:my-5 sm:px-5 md:my-6 md:px-6 lg:w-1/3 xl:my-24 xl:px-24">
+        <!-- Column Content -->
+        <br><br>
+        <h1 class="text-white">Phase1</h1>
+        <br><br>
+        <h1 class="text-white">
+          2023 Q1:
+
+          -Eliminating Rug pulls in Bsc <br>
+          -Listing Bsc Projects <br>
+
+        </h1>
+      </div>
+
+      <div class="my-5 px-5 w-full overflow-hidden sm:my-5 sm:px-5 md:my-6 md:px-6 lg:w-1/3 xl:my-24 xl:px-24">
+        <!-- Column Content -->
+        <br><br>
+        <h1 class="text-white">Phase1</h1>
+        <br><br>
+        <h1 class="text-white">
+          2023 Q2:
+
+          -Listing other blockchains <br>
+
+        </h1>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <br><br><br>
+  <section class="email">
+    <div class="flex flex-wrap overflow-hidden">
+
+      <div class="w-full overflow-hidden xl:px-3">
+        <br><br><br>
+        <h1 class="text-9xl text-white text-center">Subscribe To Newsletter</h1>
+        <!-- Column Content -->
+        <br><br><br>
+        <label for="email" class="p-1">Sign up for our Newsletter!</label>
+        <input type="email" placeholder="you@example.com" id="email" class="
+                outline-none
+                pl-8
+                border
+                border-solid
+                border-teal-600
+                placeholder-teal-500
+                focus:border-black
+                " style="width: 800px; height: 60px" />
+        <button style="width: 189px; height: 70px; background-color: #FFE200;" class="
+                 p-1
+                 hover:bg-black
+                 hover:border-black
+                 text-white
+                 border
+                 border-solid
+                 border-teal-600
+                 " type="submit">
+          Sign Up!
+        </button>
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="social flex flex-wrap overflow-hidden bg-white">
+      <div class="w-full overflow-hidden">
+        <h1>content here</h1>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="footer flex justify-center w-full flex-wrap">
+    <div class="md:flex md:-mx-4 mt-12 md:pt-4">
+      <div class="px-4 md:w-1/3 mt-6 md:mt-0">
+        <div
+          class="feature-box text-center p-4 md:p-6 max-w-sm mx-auto border-2 border-solid border-gray-300 rounded md:h-full">
+          <div class="text-xl p-4 w-16 h-16 mx-auto">
+            <i class="fas fa-bolt text-indigo-600"></i>
+          </div>
+          <h5 class="text-xl font-medium mb-4">Fresh Design</h5>
+          <p class="text-gray-600 mb-3">FWR blocks bring in an air of fresh design with their creative layouts and
+            blocks, which are easily customizable.</p>
+        </div>
+      </div>
+      <div class="px-4 md:w-1/3 mt-6 md:mt-0">
+        <div
+          class="feature-box text-center p-4 md:p-6 max-w-sm mx-auto border-2 border-solid border-gray-300 rounded md:h-full">
+          <div class="text-xl p-4 w-16 h-16 mx-auto">
+            <i class="fas fa-code text-indigo-600"></i>
+          </div>
+          <h5 class="text-xl font-medium mb-4">Clean Code</h5>
+          <p class="text-gray-600 mb-3">FWR blocks are the cleanest pieces of HTML blocks, which are built with utmost
+            care to quality and usability.</p>
+        </div>
+      </div>
+      <div class="px-4 md:w-1/3 mt-6 md:mt-0">
+        <div
+          class="feature-box text-center p-4 md:p-6 max-w-sm mx-auto border-2 border-solid border-gray-300 rounded md:h-full">
+          <div class="text-xl p-4 w-16 h-16 mx-auto">
+            <i class="fas fa-wrench text-indigo-600"></i>
+          </div>
+          <h5 class="text-xl font-medium mb-4">Perfect Tool</h5>
+          <p class="text-gray-600 mb-3">FWR blocks is a perfect tool for designers, developers and agencies looking to
+            create stunning websites in no time.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <script>
+    document.getElementById("hamburger").onclick = function toggleMenu() {
+      const navToggle = document.getElementsByClassName("toggle");
+      for (let i = 0; i < navToggle.length; i++) {
+        navToggle.item(i).classList.toggle("hidden");
+      }
+    }
+  </script>
+</body>
+
+</html>
